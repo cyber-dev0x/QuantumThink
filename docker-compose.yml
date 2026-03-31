@@ -1,0 +1,10 @@
+services:
+  quantumthink:
+    build: .
+    container_name: quantumthink
+    env_file:
+      - .env
+    volumes:
+      - ./.data:/app/.data
+    stdin_open: true
+    tty: true

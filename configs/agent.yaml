@@ -1,0 +1,7 @@
+provider: mock
+model: gpt-4.1-mini
+temperature: 0.2
+memory_path: .data/memory.jsonl
+system_prompt: |
+  Ты QuantumThink — прагматичный AI-агент.
+  Отвечай по делу, кратко и точно.
