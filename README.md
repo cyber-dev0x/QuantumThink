@@ -38,6 +38,7 @@ quantumthink ask "посчитай 25 * (4 + 1)"
    ```bash
    pip install -e .[openai]
    ```
+   > Для OpenAI SDK лучше Python 3.11–3.14.
 2. В `.env` добавь `OPENAI_API_KEY=...`
 3. В `configs/agent.yaml` поставь:
    ```yaml
